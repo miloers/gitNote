@@ -34,10 +34,20 @@ git log --pretty=oneline
 
 当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作
 
-#### order6
+##### order6
 
 命令git rm用于删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能恢复文件到最新版本，你会丢失最近一次提交后你修改的内容。
 
 在rm file.txt后 仓库还是有文件的
 彻底删除 git rm file.txt ->git commit -m"remove file.txt"
+
+
+##### order7
+
+添加远程库
+本机里创建SSH KEY
+本机生成 id_rsa 和 id_rsa.pub
+创建远成仓库后新建ssh_key与id_rsa.pub相匹配。（本地创建的id_ras.pub复制到远程仓库新建的ssh_key里）
+
+##### order8
 
