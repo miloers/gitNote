@@ -58,7 +58,7 @@ git log --pretty=oneline
 
 Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
 
-##### oreder9
+##### order9
 
 查看分支：git branch
 
@@ -71,4 +71,10 @@ Git支持多种协议，包括https，但通过ssh支持的原生git协议速度
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+
+
+##### order10
+忽略某些文件时，需要编写.gitignore；
+
+.gitignore文件本身要放到版本库里，并且可以对.gitignore做版本管理！
 
